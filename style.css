@@ -1,0 +1,22 @@
+:root {
+    --bulma-primary-h: 270deg;
+    --bulma-primary-l: 50%;
+    --bulma-scheme-h: 270;
+    --bulma-scheme-s: 15%;
+    --bulma-burger-h: 270deg;
+    --bulma-link-h: 270deg;
+    --bulma-link-s: 93%;
+    --bulma-link-l: 71%;
+    --bulma-info-h: 166deg;
+    --bulma-info-l: 50%;
+    --bulma-family-primary: Montserrat, system-ui, sans-serif;
+    --bulma-family-secondary: Montserrat, system-ui, sans-serif;
+}
+
+ul.no-bullets {
+    list-style: none;
+}
+
+.has-text-shadow.has-text-primary {
+    text-shadow: 0 0 10px hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l));
+}
